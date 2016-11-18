@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Panda</title>
-        <link rel="stylesheet" href="css/semantic.css">
-        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
         <link rel="stylesheet" href="css/app.css">
         <link rel="stylesheet" href="css/global.css">
     </head>
@@ -80,55 +80,8 @@
                 </form>
             </div>
         </div>
-        <script src="js/jquery.js"></script>
-        <script src="js/semantic.js"></script>
-        <script>
-            $('#signUp').form({
-                inline: true,
-                on: 'blur',
-                fields: {
-                    password2: {
-                        identifier: 'password2',
-                        rules: [
-                            {
-                                type: 'match[password]',
-                                prompt: 'Password not match!'
-                            }
-                        ]
-                    },
-                    password: {
-                        identifier: 'password',
-                        rules: [
-                            {
-                                type: 'empty',
-                                prompt: 'Password cannot be empty!'
-                            }
-                        ]
-                    },
-                    name: {
-                        identifier: 'name',
-                        rules: [
-                            {
-                                type: 'empty',
-                                prompt: 'Please write your name!'
-                            }
-                        ]
-                    },
-                    email: {
-                        identifier: 'email',
-                        rules: [
-                            {
-                                type: 'empty',
-                                prompt: 'Please write your email!'
-                            },
-                            {
-                                type: 'email',
-                                prompt: 'Please enter a valid e-mail address'
-                            }
-                        ]
-                    }
-                }
-            });
-        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.js"></script>
+        <script src="js/app.js"></script>
     </body>
 </html>
