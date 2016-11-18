@@ -1,0 +1,23 @@
+/* ----- Main elements ----- */
+html,body{
+    background: linear-gradient(141deg, #2980b9 10%, #3498db 30%, #2980b9 75%);
+    height: 100%;
+    overflow: hidden;
+}
+h1{
+	color: #ffffff;
+	text-align: center;
+}
+/* ----- Custom classes and IDs ----- */
+.ui.grid  {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+.ui.menu{
+    border-radius: 0px !important;
+}
+.mainContainer{
+	height: 100%;
+}
