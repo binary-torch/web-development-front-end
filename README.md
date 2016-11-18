@@ -21,6 +21,23 @@ This folder contains all the presented slides during the workshops:
 
 This folder contains almost all the examples and practical application to enhance better understanding of the content.
 
+1. front-end frameworks
+
+	+ basic semantic ui element
+	+ ui menu
+
+2. jquery
+
+	+ example 1
+	+ example 2
+	+ example 3
+	+ example 4
+	+ example 5
+	+ example 6
+	+ example 7
+
+3. Final project
+
 ---
 
 If you have any question or problem feel free to contact me.
