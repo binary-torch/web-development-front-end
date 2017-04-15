@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Project 7</title>
+		<style>
+			*{
+				font-family: sans-serif;
+			}
+
+			.card{
+				width: 200px;
+				height: 200px;
+				background-color: #fff;
+				border-radius: 10px;
+				border: 3px solid #eaeaea;
+				text-align: center;
+				padding: 30px;
+				margin: 10px;
+				display: inline-block;
+			}
+
+			.card > h1 {
+				color: grey;
+			}
+
+			.card > p {
+				color: grey;
+			}
+
+			.card > button {
+				background-color: #27ae60;
+				color: #fff;
+				border: none;
+				font-size: 13px;
+				border-radius: 5px;
+				padding: 10px 20px;
+			}
+
+			.container {
+				display: flex;
+  justify-content: center;
+			}
+
+			#header{ 
+				width: 100%;
+				padding: 20px;
+				text-align: center;
+				color: #fff;
+				margin-bottom: 30px;
+
+				background: rgba(147,206,222,1);
+				background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+				background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+				background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+				background: -o-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+				background: -ms-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+				background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+		 	}
+		</style>
+	</head>
+
+	<body>
+		<div id="header">
+			<h1>Apple's Products</h1>
+		</div>
+		<div class="container">
+			<div class="card">
+				<h1>IPhone</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, nisi.</p>
+				<button>Add to Cart</button>
+			</div>
+
+			<div class="card">
+				<h1>IPad</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, nisi.</p>
+				<button>Add to Cart</button>
+			</div>
+
+			<div class="card">
+				<h1>IMac</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, nisi.</p>
+				<button>Add to Cart</button>
+			</div>
+		</div>
+	</body>
+</html>
