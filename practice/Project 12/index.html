@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 12</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">
+    </head>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        html, body{
+            height: 100%;
+            width: 100%;
+            background-color: #d35400;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .counter{
+            background-color: #ecf0f1;
+            width: 200px;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center; 
+        }
+
+        .plus.icon, .minus.icon{
+            cursor: pointer;
+        }
+    </style>
+    <body>
+        <div class="counter">
+            <div class="ui three columns grid">
+              <div class="column">
+                  <i class="minus icon"></i>
+              </div>
+
+              <div class="column">
+                  <p id="counterValue">0</p>
+              </div>
+
+              <div class="column">
+                  <i class="plus icon"></i>
+              </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.js"></script>
+        <script>
+        var count = 0;
+            $('.plus').click(function(){
+                $('.counter').transition('jiggle');
+                count += 1;
+                $('#counterValue').text(count);
+            });
+            $('.minus').click(function(){
+                $('.counter').transition('jiggle');
+                count -= 1;
+                $('#counterValue').text(count);
+            });
+        </script>
+    </body>
+</html>
+

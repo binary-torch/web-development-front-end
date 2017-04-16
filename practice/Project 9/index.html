@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Project 9</title>
+		<style>
+			* {
+				margin: 0px;
+				padding: 0px;
+				font-family: sans-serif;
+			}
+
+			.sidebar{
+				width: 200px;
+				height: 100%;
+				position: fixed;
+				background-color: #eaeaea;
+				border-right: 2px solid lightgrey;
+				transition: all 0.5s ease-in-out;
+				overflow: hidden;
+			}
+
+			.sidebar > ul > li {
+				padding: 20px;
+				cursor: pointer;
+			}
+
+			.sidebar > ul > li:hover {
+				padding: 20px;
+				background-color: grey;
+				color: white;
+			}
+
+			.content{
+				position: absolute;
+				margin-left: 220px;
+				padding-top: 10px;
+				transition: all 0.5s ease-in-out;
+			}
+
+			button{
+				padding: 10px;
+				background-color: #e74c3c;
+				color: #fff;
+				border-radius: 5px;
+				border: none;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="sidebar">
+			<ul>
+				<li>Home</li>
+				<li>Profile</li>
+			</ul>
+		</div>
+		<div class="content">
+			<button>X</button>
+			<h1>Lorem</h1>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<script>
+			var isHidden = false;
+			$('button').click(function(){
+				if(isHidden == false){
+					$('.sidebar').css({
+						'width' : '200px'
+					});
+					$('.content').css({
+						'margin-left' : '220px'
+					});
+				}else{
+					$('.sidebar').css({
+						'width' : '0px'
+					});
+					$('.content').css({
+						'margin-left' : '20px'
+					});
+				}
+				isHidden = !isHidden;
+			});
+		</script>
+	</body>
+</html>

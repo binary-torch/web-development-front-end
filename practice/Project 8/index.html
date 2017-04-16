@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Project 8</title>
+		<style>
+			*{
+				font-family: sans-serif;
+			}
+
+			button{
+				background-color: #3498db;
+				color: #fff;
+				padding: 10px;
+				border-radius: 5px;
+				text-decoration: none;
+				border: none;
+				font-size: 16px;
+				cursor: pointer;
+			}
+
+			.comments{
+				margin: 10px;
+				padding: 10px;
+				border-radius: 5px;
+				border: 4px solid #ecf0f1;
+			}
+
+			.comment{
+				background-color: #bdc3c7;
+				border-top-left-radius: 10px;
+				border-top-right-radius: 10px;
+				border-bottom-right-radius: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Article of the day:</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ab, maxime reprehenderit, laborum asperiores alias doloremque nesciunt quos enim saepe dignissimos perferendis ipsum dolorem voluptatem at quo fugit delectus nihil, dicta minima excepturi. Cum, ratione, provident. Libero placeat numquam saepe iusto sint commodi enim laborum cupiditate et, adipisci suscipit totam quidem eligendi distinctio repellat, sed officia est harum tempora possimus necessitatibus. Laudantium iure minima eos odio aspernatur dolores culpa fuga maxime molestias, amet consectetur ex expedita nobis nisi magni labore ab nesciunt rem et dignissimos dolorem sint sequi. Soluta vero illum molestias provident perspiciatis molestiae, alias tenetur. Consequatur, iusto, laborum!</p>
+		<button>Toggle Comments Section</button>
+		<div class="comments">
+			<div class="comment">
+				<h2>Saleem said...</h2>
+				<p>This is cool :p</p>
+			</div>
+			<div class="comment">
+				<h2>Ahid said...</h2>
+				<p>I don't like it</p>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<script>
+			var isHidden = false;
+			$('button').click(function(){
+				if(isHidden){
+					$('.comments').show();
+				}else{
+					$('.comments').hide();
+				}
+				isHidden = !isHidden;
+			});
+		</script>
+	</body>
+</html>

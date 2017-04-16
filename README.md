@@ -7,3 +7,30 @@ The objectives of this workshop:
 4. To provide students with better understanding about how is the internet working?  
 
 ---
+
+### Content:
+
+> materials
+
+This folder contains all the presented slides during the workshops:
+
++ day1 (HTML & CSS)
++ day2 (JS, JQuery & Framework)
+
+> practice
+
+This folder contains almost all the examples and practical application to enhance better understanding of the content.
+
+
+
+---
+
+> Please leave your feedback about this workshop by filling up this forum:
+
+### https://goo.gl/forms/kM8icBbCI6408hOr2
+
+---
+
+
+If you have any question or problem feel free to contact me.
+
