@@ -1,4 +1,5 @@
-# Front-End Workshop
+# Binary Torch Sdn. Bhd.
+## Front-End Workshop
 The objectives of this workshop:
 
 1. The course starts with the fundamentals by showing tips to work efficiently with latest web technologies like HTML5, CSS3, JavaScript and JQuery.
