@@ -29,9 +29,3 @@ This folder contains almost all the examples and practical application to enhanc
 > Please leave your feedback about this workshop by filling up this forum:
 
 ### https://goo.gl/forms/kM8icBbCI6408hOr2
-
----
-
-
-If you have any question or problem feel free to contact me.
-
