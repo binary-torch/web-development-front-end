@@ -21,11 +21,3 @@ This folder contains all the presented slides during the workshops:
 > practice
 
 This folder contains almost all the examples and practical application to enhance better understanding of the content.
-
-
-
----
-
-> Please leave your feedback about this workshop by filling up this forum:
-
-### https://goo.gl/forms/kM8icBbCI6408hOr2
